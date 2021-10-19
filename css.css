@@ -2,19 +2,20 @@ body , html {
     height: 100%;
     width: 100%;
 }
-p{
-    text-align: center;
-}
-.container{
-    font-family: 'Oswald', sans-serif;
-    font-size:75px;
-    color :#fff;
-    background-color: rgb(12, 5, 71, 0.5);
-}
 .bg{
     background-image: url('CANO8561.jpg');
     background-size: cover;
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
+}
+p{
+    width: 100%;
+    bottom:0;
+    position: absolute;
+    font-size:50px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color :#fff;
+    background-color: rgb(12, 5, 71, 0.5);
 }
